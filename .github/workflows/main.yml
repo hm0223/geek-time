@@ -17,3 +17,8 @@ jobs:
         run: |
           mvn clean install
           mvn test
+          
+      - name: Build Child Project
+        run: |
+          mvn -f geek-beauty-of-design-pattern/pom.xml clean install
+          mvn -f geek-beauty-of-design-pattern/pom.xml test
