@@ -9,6 +9,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Random;
 
+@SuppressWarnings("all")
 public class RandomIdGenerator implements LogTraceIdGenerator {
   private static final Logger logger = LoggerFactory.getLogger(RandomIdGenerator.class);
 
