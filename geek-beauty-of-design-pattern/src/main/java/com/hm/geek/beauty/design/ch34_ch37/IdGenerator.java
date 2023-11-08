@@ -1,4 +1,4 @@
-package com.hm.geek.beauty.design.ch34_ch35;
+package com.hm.geek.beauty.design.ch34_ch37;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
