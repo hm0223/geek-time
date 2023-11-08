@@ -1,7 +1,7 @@
-package com.hm.geek.beauty.design.ch34_ch35.refactor4;
+package com.hm.geek.beauty.design.ch34_ch37.refactor4;
 
 import com.google.common.annotations.VisibleForTesting;
-import com.hm.geek.beauty.design.ch34_ch35.refactor1.LogTraceIdGenerator;
+import com.hm.geek.beauty.design.ch34_ch37.refactor1.LogTraceIdGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
