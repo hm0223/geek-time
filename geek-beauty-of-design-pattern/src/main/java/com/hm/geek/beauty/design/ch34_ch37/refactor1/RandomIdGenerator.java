@@ -1,4 +1,4 @@
-package com.hm.geek.beauty.design.ch34_ch35.refactor1;
+package com.hm.geek.beauty.design.ch34_ch37.refactor1;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,6 +7,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Random;
 
+@SuppressWarnings("all")
 public class RandomIdGenerator implements LogTraceIdGenerator {
     private static final Logger logger = LoggerFactory.getLogger(RandomIdGenerator.class);
 

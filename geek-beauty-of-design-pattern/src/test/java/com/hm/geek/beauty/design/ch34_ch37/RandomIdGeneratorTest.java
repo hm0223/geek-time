@@ -1,6 +1,6 @@
-package com.hm.geek.beauty.design.ch34_ch35;
+package com.hm.geek.beauty.design.ch34_ch37;
 
-import com.hm.geek.beauty.design.ch34_ch35.refactor2.RandomIdGenerator;
+import com.hm.geek.beauty.design.ch34_ch37.refactor2.RandomIdGenerator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
