@@ -33,8 +33,7 @@ public class RuleConfigSource {
 
         String configText = "";
         // 从ruleConfigFilePath文件中读取配置文本到configText中
-        RuleConfig ruleConfig = parser.parse(configText);
-        return ruleConfig;
+        return parser.parse(configText);
     }
 
     private String getFileExtension(String filePath) {

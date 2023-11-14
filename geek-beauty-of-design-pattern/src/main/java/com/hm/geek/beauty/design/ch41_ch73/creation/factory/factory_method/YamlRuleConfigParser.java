@@ -8,4 +8,8 @@ import com.hm.geek.beauty.design.ch41_ch73.creation.factory.abstract_factory.IRu
  * @author huwenfeng
  */
 public class YamlRuleConfigParser implements IRuleConfigParser {
+    @Override
+    public RuleConfig parse(String configText) {
+        return null;
+    }
 }
