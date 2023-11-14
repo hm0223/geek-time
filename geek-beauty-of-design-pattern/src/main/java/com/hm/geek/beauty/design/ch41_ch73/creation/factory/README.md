@@ -50,8 +50,7 @@ public class RuleConfigParserFactory {
     if (configFormat == null || configFormat.isEmpty()) {
       return null;//返回null还是IllegalArgumentException全凭你自己说了算
     }
-    IRuleConfigParser parser = cachedParsers.get(configFormat.toLowerCase());
-    return parser;
+    return cachedParsers.get(configFormat.toLowerCase());
   }
 }
 ```
@@ -129,4 +128,8 @@ public class XmlConfigParserFactory implements IConfigParserFactory {
 
 // 省略YamlConfigParserFactory和PropertiesConfigParserFactory代码
 ```
+
+## 工厂模式实现 DI（Dependency Injection Container） 容器
+> 一个简单的 DI 容器的核心功能一般有三个：配置解析、对象创建和对象生命周期管理。
+
 
