@@ -1,10 +1,5 @@
 package com.hm.geek.beauty.design.ch41_ch73.structural.decorator;
 
-import java.io.FileInputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-
 abstract class Shape {
     abstract void draw();
 }
@@ -68,7 +63,7 @@ public class DecoratorPatternDemo {
         Shape rectangle = new Rectangle();
         
         Shape redRectangle = new RedShapeDecorator(new Rectangle());
-        Shape greenRectangle = new GreenShapeDecorator(new RedShapeDecorator(new Rectangle()));
+        Shape greenRectangle = new GreenShapeDecorator(new Rectangle());
         
         System.out.println("Shape with normal border");
         rectangle.draw();
